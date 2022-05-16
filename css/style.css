@@ -300,7 +300,101 @@ html, body {
     filter: drop-shadow(0 5px 5px black);
 }
 
+@media only screen and (max-width: 480px)  {
 
+        #logo {           
+          margin-left: 240px;    
+          max-width: 100%;
+          height: auto;
+          float: inline-start;
+        }   
+
+        #header{
+          width: 1100px;
+        }
+
+        #tituloPrincipal{
+          margin-left: 10%;
+          font-size: 2cm;
+          padding-top: 300px;
+        }
+
+        #menuPrincipal li{
+            font-size: 170%;
+            width: 12%;
+            padding: 1px 3px; 
+            margin-left: 4px;
+        }
+
+        .redesSociales{
+            left: 27%;
+        }
+
+        .tituloVideo1{
+            margin-top: -1%;
+            position: relative;
+        }
+        .tituloVideo2{
+            margin-left: 21%; 
+            margin-top: 51%;
+        }
+
+        .video1{
+            
+            position: absolute;
+        }
+
+        .video2{
+            margin-top: -1%;
+            position: absolute;
+            margin-left: 1%;
+            
+        }
+
+        .cuadroComentario{
+            margin-left: 100%;
+        }
+
+        #galeria{
+            margin-top: 40%;
+        }
+        
+        .galeriaprincipal{
+            margin-left: 1%;
+        }
+        .imagengaleria img{
+            height: 180px;
+            width: 180px;
+        }
+
+        .formularioEscribenos{
+            margin-left: 16%;
+        }
+        .comentarioFormulario input{
+            width:460px; 
+            height:100px;
+            
+        }
+
+        #enviarFormulario{
+            width:300px;
+            height:50px;
+            margin-left: 13%
+        }
+
+        .botonarriba{
+            position:fixed;
+            left: 93%;
+            bottom: 1%;
+            z-index: 100
+        }
+        
+        .botonarriba input{
+            height: 70%;
+            width: 70%;
+            object-fit: contain ;
+        }
+}
 
 
 @media only screen and (min-width: 480px)  {
