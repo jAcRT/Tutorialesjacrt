@@ -1,0 +1,593 @@
+
+
+body {background-color:rgb(255, 255, 255);}
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+#header {
+    background: linear-gradient(to bottom, rgb(47, 47, 136), white);
+}
+
+#tituloPrincipal {
+    font-size: 3cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 23%;
+    margin-top: 0%; 
+    padding-top: 76px;
+    -webkit-text-stroke: 6px black;
+    color: transparent; 
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+    
+}
+#logo{
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 250px;
+    filter: drop-shadow(0 15px 5px black);
+    
+}
+#menuPrincipal li{
+    background-color: black;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    width: 11%;
+    padding: 5px 10px;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+    border-radius: 14px;
+}
+
+#menuPrincipal li:hover{
+    background-color:#fff;
+    color:black
+}
+
+.subTituloCentral{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 3px 2px rgb(56, 41, 41);
+    color: rgb(15, 1, 145);
+    -webkit-text-stroke: 1px rgb(184, 177, 223);
+}
+#texto1 {
+    margin: 3%;
+    text-align: center;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px rgb(165, 164, 164);
+    
+}
+
+.redesSociales{
+    position: absolute;
+    left: 37%;
+    
+}
+
+.redesSociales img:hover{   
+    transform: scale(1.5);
+    
+}
+
+.botonarriba{
+    position:fixed;
+    left: 93%;
+    bottom: 1%;
+    z-index: 100
+}
+
+.botonarriba input{
+    height: 100%;
+    width: 100%;
+    object-fit: contain ;
+}
+
+.botonsubir input{
+    width: 80px;
+    height: 80px;
+}
+.botonsubir input:hover{
+    transform: scale(1.2);
+}
+
+#tutoriales{
+    position:static;
+   margin-top: 200px;
+    
+}
+.videos{
+    display: flexbox;
+    flex: auto;
+    margin-left: 100px;
+}
+
+.tituloVideo1{
+    margin-left: 100px;;
+    display: flex;
+    float: inline-start;
+    
+}
+.tituloVideo1 h3{
+    flex: 1 1 auto;
+    margin-left: 5%;
+    font-size: 26px;
+}
+.tituloVideo2{
+    margin-left: 700px;;
+    display: flex;
+    float: inline-start;
+    margin-top: -32.5%;
+}
+.tituloVideo2 h3{
+    flex: 1 1 auto;
+    margin-left: 5%;
+    font-size: 26px;
+}
+.video2{
+    margin-left: 570px;
+}
+.cuadroComentario{
+    margin-left: 100px;;
+    display: flex;
+    float: inline-start;
+}
+.cuadroComentario input {
+    width: 550px;
+    height: 30px;
+}
+
+.botonComentarioIzquierdo{
+    margin-left: 0.6%
+}
+.botonComentarioDerecho{
+    
+    margin-left: -115px;
+}
+.comentarioDerecho{
+    
+    margin-left: -120px;
+}
+#galeria{
+    position:static;
+   margin-top: 80px;
+    
+}
+.imagengaleria img{
+    height:335px;
+    width: 335px;
+}
+.galeriaprincipal{
+    display: flex;
+    flex-direction: column;
+}
+.galeria1{
+    display: flex
+}
+.galeria2{
+    display: flex
+}
+
+.galeria1 a:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+.galeria2 a:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+#descargas{
+    position:static;
+   margin-top: 100px;
+}
+
+.descargaAffter{
+    font-size: 25px;
+    text-align: center;
+    background-color: blueviolet;
+    color: #fff;
+    border-color: black;
+    border-style: double ;
+    margin: 5px;
+}
+.descargaAffter h2{
+    color:indigo;
+    text-shadow: 2px 2px 2px black;  
+}
+.descargaAffter h2:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2); 
+}
+.descargaAffter p{
+    color:white;
+    text-shadow: 2px 2px 2px black;  
+}
+
+.descargaIllustrator{
+    font-size: 25px;
+    text-align: center;
+    background-color:chocolate;
+    color: #fff;
+    border-color: black;
+    border-style: double ;
+    margin: 5px;
+    
+}
+.descargaIllustrator h2{
+    color:yellow;
+    text-shadow: 2px 2px 2px black;  
+}
+.descargaIllustrator h2:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2); 
+}
+.descargaIllustrator p{
+    color:white;
+    text-shadow: 2px 2px 2px black;  
+}
+
+.descargaPhotoshop{
+    font-size: 25px;
+    text-align: center;
+    background-color:rgb(124, 47, 143);
+    color: #fff;
+    border-color: black;
+    border-style: double ;
+    margin: 5px;
+    
+}
+.descargaPhotoshop h2{
+    color:darkmagenta;
+    text-shadow: 2px 2px 2px black;  
+}
+.descargaPhotoshop h2:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2); 
+}
+.escargaPhotoshop p{
+    color:white;
+    text-shadow: 2px 2px 2px black;  
+}
+
+#escribenos{
+    position:static;
+   margin-top: 100px;
+}
+
+.formularioEscribenos{
+    margin-left: 14%;
+}
+.nombreYcorreo input{
+    width: 458px;
+    height: 50px;
+}
+.comentarioFormulario input{
+    width:930px; 
+    height:100px;
+    
+}
+#comentarioUsuario{
+    text-align: center;
+}
+#enviarFormulario{
+    width:300px;
+    height:50px;
+    margin-left: 28%
+}
+#escribenos input{
+    filter: drop-shadow(0 5px 5px black);
+}
+
+.footer{
+    margin-top: 100px;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(47, 47, 136));
+}
+.footer h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px rgb(77, 76, 76);
+}
+.footer p{
+    margin-top: -20px;
+}
+.footer img{
+    margin-top: -20px;
+    filter: drop-shadow(0 5px 5px black);
+}
+
+
+
+
+@media only screen and (min-width: 480px)  {
+
+        #logo {           
+          margin-left: 240px;    
+          max-width: 100%;
+          height: auto;
+          float: inline-start;
+        }   
+
+        #header{
+          width: 1100px;
+        }
+
+        #tituloPrincipal{
+          margin-left: 10%;
+          font-size: 2cm;
+          padding-top: 300px;
+        }
+
+        #menuPrincipal li{
+            font-size: 170%;
+            width: 12%;
+            padding: 1px 3px; 
+            margin-left: 4px;
+        }
+
+        .redesSociales{
+            left: 27%;
+        }
+
+        .tituloVideo1{
+            margin-top: -1%;
+            position: relative;
+        }
+        .tituloVideo2{
+            margin-left: 21%; 
+            margin-top: 51%;
+        }
+
+        .video1{
+            
+            position: absolute;
+        }
+
+        .video2{
+            margin-top: -1%;
+            position: absolute;
+            margin-left: 1%;
+            
+        }
+
+        .cuadroComentario{
+            margin-left: 100%;
+        }
+
+        #galeria{
+            margin-top: 40%;
+        }
+        
+        .galeriaprincipal{
+            margin-left: 1%;
+        }
+        .imagengaleria img{
+            height: 180px;
+            width: 180px;
+        }
+
+        .formularioEscribenos{
+            margin-left: 16%;
+        }
+        .comentarioFormulario input{
+            width:460px; 
+            height:100px;
+            
+        }
+
+        #enviarFormulario{
+            width:300px;
+            height:50px;
+            margin-left: 13%
+        }
+
+        .botonarriba{
+            position:fixed;
+            left: 93%;
+            bottom: 1%;
+            z-index: 100
+        }
+        
+        .botonarriba input{
+            height: 70%;
+            width: 70%;
+            object-fit: contain ;
+        }
+}
+@media only screen and (min-width: 768px) {
+    #logo {           
+        margin-left: 370px;    
+        max-width: 100%;
+           
+      }   
+
+      #header{
+        width: 1100px;
+      }
+
+      #tituloPrincipal{
+        margin-left: 23%;
+        font-size: 2cm;
+        padding-top: 300px;
+      }
+
+      #menuPrincipal li{
+          font-size: 200%;
+          width: 15%;
+          padding: 1px 3px; 
+          margin-left: 19px;
+      }
+
+      .redesSociales{
+          left: 32%;
+      }
+
+      .tituloVideo1{
+          
+          position: relative;
+          margin-left: 26%;
+      }
+      .tituloVideo2{
+          margin-left: 27%; 
+          margin-top: 37%;
+      }
+
+      .video1{
+          margin-top: 0%;
+          position: absolute;
+          margin-left: 11%;
+      }
+
+      .video2{
+          margin-top: -1%;
+          position: absolute;
+          margin-left: 11%;
+      }
+
+      .cuadroComentario{
+          margin-left: 100%;
+      }
+
+      #galeria{
+          margin-top: 32%;
+      }
+      
+      .galeriaprincipal{
+          margin-left: 1%;
+      }
+      
+      .imagengaleria img{
+          height: 244px;
+          width: 244px;
+      }
+
+      .formularioEscribenos{
+          margin-left: 25%;
+      }
+      .comentarioFormulario input{
+          width:460px; 
+          height:100px;
+          
+      }
+
+      #enviarFormulario{
+          width:300px;
+          height:50px;
+          margin-left: 13%
+      }
+
+      .botonarriba{
+          position:fixed;
+          left: 93%;
+          bottom: 1%;
+          z-index: 100
+      }
+      
+      .botonarriba input{
+          height: 70%;
+          width: 70%;
+          object-fit: contain ;
+      }    
+
+} 
+@media only screen and (min-width: 1024px){
+
+    #logo {           
+        margin-left: 8px;    
+        max-width: 100%;    
+      }   
+
+      #header{
+        width: 1350px;
+      }
+
+      #tituloPrincipal{
+        margin-left: 23%;
+        font-size: 126px;
+        padding-top: 78px;
+        margin-top: 0%;
+      }
+
+      #menuPrincipal li{
+        font-size: 260%;
+        width: 17%;
+        padding: 5px 5px;
+        margin-left: 20px;
+      }
+
+      .redesSociales{
+          left: 36%;
+      }
+
+      .tituloVideo1{
+          
+          position: relative;
+          margin-left: 3%;
+      }
+      .tituloVideo2{
+        margin-left: 58%;
+        margin-top: -8%;
+      }
+
+      .video1{
+          margin-top: 0%;
+          position: absolute;
+          margin-left: -4%;
+      }
+
+      .video2{
+          margin-top: 1%;
+          position: absolute;
+          margin-left: 43%;
+      }
+
+      .cuadroComentario{
+          margin-left: 100%;
+      }
+
+      #galeria{
+          margin-top: 32%;
+      }
+      
+      .galeriaprincipal{
+          margin-left: 1%;
+      }
+      
+      .imagengaleria img{
+        height: 310px;
+        width: 310px;
+      }
+
+      .formularioEscribenos{
+          margin-left: 13%;
+      }
+      .comentarioFormulario input{
+        width: 925px;
+        height: 98px;
+        margin-left: 0%;  
+      }
+
+      #enviarFormulario{
+        width: 306px;
+        height: 51px;
+        margin-left: 29%;
+      }
+
+      .botonarriba{
+          position:fixed;
+          left: 93%;
+          bottom: 1%;
+          z-index: 100
+      }
+      
+      .botonarriba input{
+          height: 70%;
+          width: 70%;
+          object-fit: contain ;
+      }  
+    
+} 
